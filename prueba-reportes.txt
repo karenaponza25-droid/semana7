@@ -1,0 +1,17 @@
+Cuando se registra un reporte mediante la ruta POST /reportes, la información queda almacenada en el array reportes. Al consultar la ruta GET /reportes, el servidor devuelve la lista de reportes registrados. Esto permite visualizar todos los reportes guardados mientras el servidor está en funcionamiento.
+
+Ejemplo de respuesta:
+
+[
+
+  {
+
+    "id": 1,
+
+    "tipo": "Infraestructura",
+
+    "descripcion": "Daño en alumbrado público"
+
+  }
+
+]
